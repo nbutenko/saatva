@@ -28,6 +28,7 @@ function App() {
       setCartProducts([...cartProducts, item]);
     }
     addCountCartItems();
+    toggle();
   }
 
   // Clear shopping cart => delete all products from shopping cart
