@@ -41,6 +41,11 @@
   box-shadow: none !important;
 }
 
+.product-image {
+  height: 55vh;
+  background-size: cover;
+}
+
 .buy-button {
   background-color: #d4aa63 !important;
   color: #ffffff !important;
@@ -51,6 +56,11 @@
   box-shadow: 0 0 0 0.25rem rgba(166, 161, 154, 0.25) !important;
 }
 
+@media (max-width: 800px) {
+  .product-image {
+    height: 35vh;
+  }
+}
 .cart-modal {
   margin: 3rem auto !important;
 }

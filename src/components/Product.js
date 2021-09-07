@@ -17,8 +17,7 @@ export default function Product(props) {
 
   return (
     <div className="product-container d-flex flex-wrap justify-content-between">
-      <div className="flex-fill">
-        <img className="w-100" src={'/images/' + primaryProduct.imageFileName} alt="Product img"/>
+      <div className="flex-fill w-50 product-image" style={{ backgroundImage: `url(${"/images/"+ primaryProduct.imageFileName})` }}>
       </div>
 
       <div className="ms-4 flex-fill">
