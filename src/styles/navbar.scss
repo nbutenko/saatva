@@ -1,0 +1,23 @@
+@import "variables/variables.scss";
+
+.navbar {
+  height: $navbarHeight;
+  padding: $contentPadding;
+  background-color: #fff;
+  border-bottom: 1px solid #d2d2d2;
+
+  .logo {
+    height: 3vh;
+    width: auto;
+  }
+
+  .shopping-cart {
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .cart-badge {
+    background-color: $darkBeige;
+  }
+}
+

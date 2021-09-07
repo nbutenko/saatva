@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+.navbar {
+  height: 10vh;
+  padding: 0 10vw;
+  background-color: #fff;
+  border-bottom: 1px solid #d2d2d2;
+}
+.navbar .logo {
+  height: 3vh;
+  width: auto;
+}
+.navbar .shopping-cart {
+  width: 20px;
+  cursor: pointer;
+}
+.navbar .cart-badge {
+  background-color: #c19579;
+}
+
+.product-container {
+  padding: 0 10vw;
+  padding-top: 2rem !important;
+  color: #000000;
+}
+
+.products-header {
+  font-family: "Source Serif Pro", sans-serif;
+}
+
+.product-btn {
+  border: 1px solid #a6a19a !important;
+  border-radius: 1px !important;
+  background-color: #ffffff !important;
+  color: #6e655a !important;
+}
+
+.product-btn:focus {
+  background-color: #a6a19a !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.buy-button {
+  background-color: #d4aa63 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.buy-button:focus, .cancel-button:focus, .clear-cart-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(166, 161, 154, 0.25) !important;
+}
+
+.cart-modal {
+  margin: 3rem auto !important;
+}
+
+.cancel-button {
+  background-color: #6e655a !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.clear-cart-button {
+  background-color: darkred !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+html {
+  box-sizing: content-box;
+}
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", sans-serif !important;
+  background-color: #F6F5F3 !important;
+}
+
+/*# sourceMappingURL=main.css.map */

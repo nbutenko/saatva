@@ -1,0 +1,33 @@
+@import "variables/variables.scss";
+
+.product-container {
+  padding: $contentPadding;
+  padding-top: 2rem !important;
+  color: #000000;
+}
+
+.products-header {
+  font-family: $headerFont;
+}
+
+.product-btn {
+  border: 1px solid #a6a19a !important;
+  border-radius: 1px !important;
+  background-color: #ffffff !important;
+  color: #6e655a !important;
+}
+
+.product-btn:focus {
+  background-color: #a6a19a !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.buy-button {
+  @include buttonStyle(#d4aa63, 10px);
+}
+
+.buy-button:focus, .cancel-button:focus, .clear-cart-button:focus {
+  box-shadow: 0 0 0 0.25rem rgb(166 161 154 / 25%) !important;
+}
+

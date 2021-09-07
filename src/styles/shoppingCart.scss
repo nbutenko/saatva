@@ -1,0 +1,13 @@
+@import "variables/variables.scss";
+
+.cart-modal {
+  margin: 3rem auto !important;
+}
+
+.cancel-button {
+  @include buttonStyle(#6e655a, 10px);
+}
+
+.clear-cart-button {
+  @include buttonStyle(darkred, 10px);
+}

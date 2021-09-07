@@ -1,0 +1,12 @@
+$headerFont: 'Source Serif Pro', sans-serif;
+$bodyFont: 'Questrial', sans-serif;
+$backgroundColor: #F6F5F3;
+$contentPadding: 0 10vw;
+$darkBeige: #c19579;
+$navbarHeight: 10vh;
+
+@mixin buttonStyle($bgColor, $fontSize) {
+  background-color: $bgColor !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}

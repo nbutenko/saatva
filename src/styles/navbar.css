@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap");
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 100vw;
+  padding: 0 10vw;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid #d2d2d2;
+}
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar .nav-links {
+  display: flex;
+}
+
+/*# sourceMappingURL=navbar.css.map */
